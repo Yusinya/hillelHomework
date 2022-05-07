@@ -1,4 +1,4 @@
-package Homework_3;
+package homework3;
 
 public class MathLiAndMin {
     public static void main(String[] args) {
