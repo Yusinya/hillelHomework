@@ -1,8 +1,8 @@
 package homework6Kramarenko;
 
-
 public class Task2 {
     public static void main(String[] args) {
+
         String a = "4";
         String b = "9";
         int number = 0;
