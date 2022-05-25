@@ -18,7 +18,8 @@ public class RevertMatrix {
                 matrix1[k][g] = i * k + g;
             }
         }
-        System.out.println("Начальная матрица:");
+
+        System.out.println("Початкова матрица:");
         for (int k = 0; k < i; k++) {
             for (int g = 0; g < j; g++) {
                 System.out.printf("%4d", matrix1[k][g]);
@@ -32,7 +33,8 @@ public class RevertMatrix {
                 value[g][k] = matrix1[k][g];
             }
         }
-        System.out.println("Новая матрица:");
+
+        System.out.println("Нова матрица:");
         for (int g = 0; g < j; g++) {
             for (int k = 0; k < i; k++) {
                 System.out.printf("%4d", matrix1[k][g]);
