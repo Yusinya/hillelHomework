@@ -1,43 +1,43 @@
 package homework12Kramarenko;
 
 public class Drinks{
-    private final int priceCoffee = 20;
-    private final int priceTea = 10;
-    private final int priceLemonade = 20;
-    private final int priceMojito = 30;
-    private final int priceSoda = 20;
-    private final int priceCocaCola = 20;
+    private final int PRICE_COFFEE = 20;
+    private final int PRICE_TEA = 10;
+    private final int PRICE_LEMONADE = 20;
+    private final int PRICE_MOJITO = 30;
+    private final int PRICE_SODA = 20;
+    private final int PRICE_COCA_COLA = 20;
 
     public int price;
 
     public void prepareCoffee(int count) {
         System.out.println("Беремо каву, заварюємо і вуаля");
-        price = count * priceCoffee;
+        price = count * PRICE_COFFEE;
     }
 
     public void prepareTea(int count) {
         System.out.println("Беремо заварку, заварюємо і вуаля");
-        price = count * priceTea;
+        price = count * PRICE_TEA;
     }
 
     public void prepareLemonade(int count) {
         System.out.println("Змішуємо мінералку, мʼяту та лимон і вуаля");
-        price = count * priceLemonade;
+        price = count * PRICE_LEMONADE;
     }
 
     public void prepareMojito(int count) {
         System.out.println("Змішуємо тонік, тростниковий цукор, мʼяту, лайм та подріблений льод і вуаля");
-        price = count * priceMojito;
+        price = count * PRICE_MOJITO;
     }
 
     public void prepareSoda(int count) {
         System.out.println("Дістаємо мінералку з холодильника і вуаля");
-        price = count * priceSoda;
+        price = count * PRICE_SODA;
     }
 
     public void prepareCola(int count) {
         System.out.println("Дістаємо колу з холодильника і вуаля");
-        price = count * priceCocaCola;
+        price = count * PRICE_COCA_COLA;
     }
 
     public void prepareSomeDrinks(int count, DrinksMachine drinks) {
