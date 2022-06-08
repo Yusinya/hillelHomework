@@ -14,13 +14,13 @@ public class Task1 {
         int maxNumber = 9;
         for (int i = 0; i < massive1.length; i++) {
             massive1[i] = random.nextInt(minNumber, maxNumber + 1);
-            System.out.println("Massive 1: " + massive1[i]);
         }
+        System.out.println(Arrays.toString(massive1));
         for (int i = 0; i < massive2.length; i++) {
             System.out.println("Введіть число:");
             massive2[i] = scanner.nextInt();
-            System.out.println("Massive 2: " + massive2[i]);
         }
+        System.out.println(Arrays.toString(massive2));
         Arrays.sort(massive1);
         Arrays.sort(massive2);
         System.out.println("Відсортований масив 1: " + Arrays.toString(massive1));
